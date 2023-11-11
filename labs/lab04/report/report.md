@@ -53,10 +53,8 @@ biblatexoptions:
   - citestyle=gost-numeric
 ## Pandoc-crossref LaTeX customization
 figureTitle: "Рис."
-tableTitle: "Таблица"
 listingTitle: "Листинг"
 lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
 lolTitle: "Листинги"
 ## Misc options
 indent: true
@@ -136,6 +134,10 @@ header-includes:
 компоновки объектного файла и запуск получившегося  исполняемого файла (рис. @fig:009)
  
 ![самостоятельная работа с командами NASM  и вывод результатов](image/9.png){#fig:009 width=70%}
+
+Загрузка файлов на Github (рис. @fig:009)
+ 
+![использование команды 'add .'](image/f.png){#fig:009 width=70%}
 
 
  
